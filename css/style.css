@@ -1,11 +1,112 @@
-body {
-    background-image: url('/images/Group\ 1.png');
-    min-height: 100vh;
-    width: 1500px;
-    background: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Raleway', sans-serif;
 
+.conteiner {
+    width: 1500px;
+    min-height: 100vh;
+    background-image: url('/images/bg.png');
+    font-family: 'Raleway', sans-serif; 
+    vertical-align: middle;
+}
+
+.title{
+   padding-top: 80px;
+   font-size: 90px ;
+   text-align: center;
+   color: #262626;
+   opacity: 1;
+   font-weight: 700;
+}
+
+.subtitle{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 17px ;
+    text-align: center;
+    color: #262626;
+    opacity: 1;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+.contact{ 
+    margin: 0;
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-right: -405px;
+    margin-top: -443px;
+}
+   
+.contact__dn{
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    line-height: 25px;
+    color:#262626 ;
+    font-weight: 700;
+    margin-right: 165px;
+    margin-left: 0px;
+    margin-top: 15px;
+
+}
+
+.content {
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+
+.form-wrap{ margin: 0;
+    float: left;
+    width: 50%;
+    height: 100%;
+  
+}
+
+.label__in {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 0;
+    margin-left: 165px;
+    margin-top: 15px;
+    padding-top: 10px;
+    text-align: left;
+    width: 500px;
+    height: 50px;
+    background-color: #00C4C4;
+    opacity: 50%;
+    text-align: left;
+    border: solid 2px #4265B7;
+    transition: height 2s;
+    
+}
+
+
+.label__in__four:hover{
+    height: 150px;
+}
+.label__in__one:focus{
+background-color: #00C4C4;
+opacity: 100%;
+}
+
+.Footer__logo, .footer__made { 
+   display: block;
+   margin: auto;
+   background-color: #262626;
+   padding-bottom: 20px;
+   padding-top: 28px;
+   text-align: center;
+
+}
+
+.flex-conteiner {
+    position: relative;
+    display:flex;
+    width: 1500px;
+    background-color:#262626;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
