@@ -28,7 +28,7 @@
 }
 
 
-.contact{
+.contact{ 
     margin: 0;
     float: right;
     width: 50%;
@@ -90,19 +90,23 @@ background-color: #00C4C4;
 opacity: 100%;
 }
 
-.footer {
- width: 1500px;
- height: 90px;
-
-
-}
-
-.Footer__logo { display: block;
+.Footer__logo, .footer__made { 
+   display: block;
    margin: auto;
    background-color: #262626;
    padding-bottom: 20px;
    padding-top: 28px;
    text-align: center;
+
 }
 
+.flex-conteiner {
+    position: relative;
+    display:flex;
+    width: 1500px;
+    background-color:#262626;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
